@@ -23,6 +23,8 @@ ext {
 }
 
 dependencies {
+
+	implementation 'org.springframework.kafka:spring-kafka'
 	implementation group: 'org.springdoc', name: 'springdoc-openapi-webflux-ui', version: '1.6.8'
 	implementation group: 'org.springdoc', name: 'springdoc-openapi-webflux-core', version: '1.6.8'
 
